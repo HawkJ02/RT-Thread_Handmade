@@ -32,6 +32,7 @@
 ..\..\output\main.o: ..\..\User\bsp\led\bsp_led.h
 ..\..\output\main.o: ..\..\User\bsp\usart\bsp_usart.h
 ..\..\output\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\main.o: ..\..\User\bsp\Key\bsp_key.h
 ..\..\output\main.o: ..\..\rt-thread\3.0.3\include\rtthread.h
 ..\..\output\main.o: ..\..\User\rtconfig.h
 ..\..\output\main.o: ..\..\rt-thread\3.0.3\include\rtdebug.h

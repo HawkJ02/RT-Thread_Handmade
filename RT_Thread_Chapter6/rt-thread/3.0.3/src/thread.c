@@ -633,9 +633,9 @@ rt_err_t rt_thread_suspend(rt_thread_t thread)
 
     /* thread check */
     RT_ASSERT(thread != RT_NULL);
-
+		
     RT_DEBUG_LOG(RT_DEBUG_THREAD, ("thread suspend:  %s\n", thread->name));
-
+		
     if ((thread->stat & RT_THREAD_STAT_MASK) != RT_THREAD_READY)
     {
         RT_DEBUG_LOG(RT_DEBUG_THREAD, ("thread suspend: thread disorder, 0x%2x\n",

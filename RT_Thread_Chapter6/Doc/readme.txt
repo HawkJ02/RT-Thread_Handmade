@@ -1,1 +1,1 @@
-Chapter6 RTT的Shell
+Chapter6 RTT的Shell以及线程管理

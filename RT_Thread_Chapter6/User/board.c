@@ -39,6 +39,9 @@ void rt_hw_board_init()
 		/* LED 端口初始化 */
 		LED_GPIO_Config();	 
 	
+		/* KEY 端口初始化 */
+		Key_GPIO_Config();
+		
 		/* USART 端口初始化 */
 		USART_Config();	 
 

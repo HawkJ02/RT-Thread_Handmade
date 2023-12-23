@@ -494,7 +494,7 @@ void rt_timer_check(void)
     RT_DEBUG_LOG(RT_DEBUG_TIMER, ("timer check enter\n"));
 
     current_tick = rt_tick_get();
-
+		
     /* disable interrupt */
     level = rt_hw_interrupt_disable();
 
@@ -510,10 +510,10 @@ void rt_timer_check(void)
         if ((current_tick - t->timeout_tick) < RT_TICK_MAX / 2)
         {
             RT_OBJECT_HOOK_CALL(rt_timer_timeout_hook, (t));
-
+						
             /* remove timer from timer list firstly */
             _rt_timer_remove(t);
-
+						
             /* call timeout function */
             t->timeout_func(t->parameter);
 

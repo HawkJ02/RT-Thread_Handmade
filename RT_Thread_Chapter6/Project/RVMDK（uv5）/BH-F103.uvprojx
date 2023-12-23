@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\led;..\..\rt-thread\3.0.3\components\finsh;..\..\rt-thread\3.0.3\include;..\..\rt-thread\3.0.3\include\libc;..\..\User\bsp\led;..\..\User\bsp\usart</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\led;..\..\rt-thread\3.0.3\components\finsh;..\..\rt-thread\3.0.3\include;..\..\rt-thread\3.0.3\include\libc;..\..\User\bsp\led;..\..\User\bsp\usart;..\..\User\bsp\Key;..\..\User\bsp\exti</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -586,6 +586,26 @@
               <FileName>bsp_led.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\User\bsp\led\bsp_led.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\bsp\exti\bsp_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\bsp\exti\bsp_exti.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\bsp\Key\bsp_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\bsp\Key\bsp_key.h</FilePath>
             </File>
           </Files>
         </Group>

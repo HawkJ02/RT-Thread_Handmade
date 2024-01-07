@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 1, 1, LIC=Z3CX7-E1CXM-UKPB6-D7BS0-CPL1W-W9Z2A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\diy\RT-Thread\git_rtthread\RT_Thread_Chapter10\Project\RVMDK£¨uv5£©\BH-F103.uvprojx
+Project File Date:  12/18/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Led'
+compiling main.c...
+..\..\User\main.c(52): warning:  #177-D: variable "uwRet"  was declared but never referenced
+  		rt_err_t uwRet = RT_EOK;
+..\..\User\main.c(100): warning:  #177-D: variable "uwRet"  was declared but never referenced
+      rt_err_t uwRet = RT_EOK;
+..\..\User\main.c(32): warning:  #177-D: variable "key_thread"  was declared but never referenced
+  static rt_thread_t key_thread = RT_NULL;
+..\..\User\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=14994 RO-data=642 RW-data=240 ZI-data=5720  
+FromELF: creating hex file...
+"..\..\Output\Á÷Ë®µÆ.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Led
+  D:\Users\HawkJ\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
